@@ -1,0 +1,28 @@
+#canvas1{
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 600px;
+}
+
+#input{
+    font-size: 20px;
+
+}
+.box{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+@media only screen and (max-width: 900px) {
+
+    #canvas1{
+        width: 300px;
+        height: 250px;
+        top: 50%;
+        left:50%;
+    }
+}
